@@ -87,7 +87,7 @@
       <div class="w3-dark-grey" style="height:28px;width:75%"></div>
     </div><br>
     <div>
-      <a src="img/EJP_resume.pdf" class="w3-button w3-padding-large w3-section"><i class="fa fa-download fa-fw"></i> Download Resume</a>
+      <a href="img/EJP_resume.pdf" target="_blank" class="w3-button w3-padding-large w3-section"><i class="fa fa-download fa-fw"></i> Download Resume</a>
     </div>
   </div>
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
@@ -101,15 +101,13 @@
   </div><br>
   <p>Lets get in touch. Send me a message:</p>
 
-  <form action="/action_page.php" target="_blank">
+  <form action="https://formspree.io/erickendy18@gmail.com" method="post">
     <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="_replyto"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="subject"></p>
+    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="message"></p>
     <p>
-      <button class="w3-button w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
+      <input class="w3-button w3-padding-large" type="submit" value="Send Message">
     </p>
   </form>
 
